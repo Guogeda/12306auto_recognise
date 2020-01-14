@@ -53,8 +53,8 @@ def login(sess):
     '''
     login_url='https://kyfw.12306.cn/passport/web/login'
     data={
-        'username':'15235153137',
-        'password':'g.488666',
+        'username':'**********',
+        'password':'******',
         'appid':'otn'
     }
     login_html=sess.post(login_url,data,headers).content
